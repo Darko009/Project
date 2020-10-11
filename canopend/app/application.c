@@ -37,6 +37,11 @@ struct CO_TPDOCommPar_t komunikacioniTPDO;
 struct CO_TPDOMappPar_t mapiranjeTPDO;
 struct CO_TPDO_t objekatTPDO;
 
+//komunikacioniRPDO.maxSubIndex=2;
+komunikacioniRPDO.COB_IDUsedByRPDO=$NODEID+0x200;
+komunikacioniRPDO.transmissionType=255;
+
+
 }
 
 
