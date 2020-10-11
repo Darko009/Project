@@ -68,8 +68,7 @@ mapiranjeTPDO.mappedObject5=0x00000000;
 mapiranjeTPDO.mappedObject6=0x00000000;
 mapiranjeTPDO.mappedObject7=0x00000000;
 mapiranjeTPDO.mappedObject8=0x00000000;
-}.
-
+}
 
 /******************************************************************************/
 void app_communicationReset(void){
