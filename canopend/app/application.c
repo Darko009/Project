@@ -37,8 +37,8 @@ CO_TPDOCommPar_t komunikacioniTPDO;
 CO_TPDOMapPar_t mapiranjeTPDO;
 CO_TPDO_t objekatTPDO;
 
-//komunikacioniRPDO.maxSubIndex=2;
-komunikacioniRPDO.COB_IDUsedByRPDO=$NODEID+0x200;
+komunikacioniRPDO.maxSubIndex=2;
+komunikacioniRPDO.COB_IDUsedByRPDO=0x200;
 komunikacioniRPDO.transmissionType=255;
 
 
