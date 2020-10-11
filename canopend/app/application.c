@@ -52,22 +52,22 @@ mapiranjeRPDO.mappedObject7=0x00000000;
 mapiranjeRPDO.mappedObject8=0x00000000;
 
 komunikacioniTPDO.maxSubIndex=6;
-komunikacioniTPDO.COB_IDUsedByTPDO;
-komunikacioniTPDO.transmissionType;
-komunikacioniTPDO.inhibitTime;
-komunikacioniTPDO.compatibilityEntry; //ne koristi se pise na gitu
-komunikacioniTPDO.eventTimer;
-komunikacioniTPDO.SYNCStartValue;
+komunikacioniTPDO.COB_IDUsedByTPDO=0x180;
+komunikacioniTPDO.transmissionType=255;
+komunikacioniTPDO.inhibitTime=100;
+komunikacioniTPDO.compatibilityEntry=0; //ne koristi se pise na gitu
+komunikacioniTPDO.eventTimer=0;
+komunikacioniTPDO.SYNCStartValue=0;
 
-mapiranjeTPDO.numberOfMappedObjects;
-mapiranjeTPDO.mappedObject1;
-mapiranjeTPDO.mappedObject2;
-mapiranjeTPDO.mappedObject3;
-mapiranjeTPDO.mappedObject4;
-mapiranjeTPDO.mappedObject5;
-mapiranjeTPDO.mappedObject6;
-mapiranjeTPDO.mappedObject7;
-mapiranjeTPDO.mappedObject8;
+mapiranjeTPDO.numberOfMappedObjects=2;
+mapiranjeTPDO.mappedObject1=0x61000108;
+mapiranjeTPDO.mappedObject2=0x61000208;
+mapiranjeTPDO.mappedObject3=0x00000000;
+mapiranjeTPDO.mappedObject4=0x00000000;
+mapiranjeTPDO.mappedObject5=0x00000000;
+mapiranjeTPDO.mappedObject6=0x00000000;
+mapiranjeTPDO.mappedObject7=0x00000000;
+mapiranjeTPDO.mappedObject8=0x00000000;
 }.
 
 
