@@ -29,13 +29,13 @@
 
 /******************************************************************************/
 void app_programStart(void){
-struct CO_RPDOCommPar_t komunikacioniRPDO;
-struct CO_RPDOMappPar_t mapiranjeRPDO;
-struct CO_RPDO_t objekatRPDO;
+CO_RPDOCommPar_t komunikacioniRPDO;
+CO_RPDOMapPar_t mapiranjeRPDO;
+CO_RPDO_t objekatRPDO;
 
-struct CO_TPDOCommPar_t komunikacioniTPDO;
-struct CO_TPDOMappPar_t mapiranjeTPDO;
-struct CO_TPDO_t objekatTPDO;
+CO_TPDOCommPar_t komunikacioniTPDO;
+CO_TPDOMapPar_t mapiranjeTPDO;
+CO_TPDO_t objekatTPDO;
 
 //komunikacioniRPDO.maxSubIndex=2;
 komunikacioniRPDO.COB_IDUsedByRPDO=$NODEID+0x200;
