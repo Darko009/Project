@@ -41,15 +41,15 @@ komunikacioniRPDO.maxSubIndex=2;
 komunikacioniRPDO.COB_IDUsedByRPDO=0x200;
 komunikacioniRPDO.transmissionType=255;
 
-mapiranjeRPDO.numberOfMappedObjects;
-mapiranjeRPDO.mappedObject1;
-mapiranjeRPDO.mappedObject2;
-mapiranjeRPDO.mappedObject3;
-mapiranjeRPDO.mappedObject4;
-mapiranjeRPDO.mappedObject5;
-mapiranjeRPDO.mappedObject6;
-mapiranjeRPDO.mappedObject7;
-mapiranjeRPDO.mappedObject8;
+mapiranjeRPDO.numberOfMappedObjects=2;
+mapiranjeRPDO.mappedObject1=0x61000108;
+mapiranjeRPDO.mappedObject2=0x62000108;
+mapiranjeRPDO.mappedObject3=0x00000000;
+mapiranjeRPDO.mappedObject4=0x00000000;
+mapiranjeRPDO.mappedObject5=0x00000000;
+mapiranjeRPDO.mappedObject6=0x00000000;
+mapiranjeRPDO.mappedObject7=0x00000000;
+mapiranjeRPDO.mappedObject8=0x00000000;
 
 komunikacioniTPDO.maxSubIndex=6;
 komunikacioniTPDO.COB_IDUsedByTPDO;
