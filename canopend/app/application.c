@@ -41,8 +41,34 @@ komunikacioniRPDO.maxSubIndex=2;
 komunikacioniRPDO.COB_IDUsedByRPDO=0x200;
 komunikacioniRPDO.transmissionType=255;
 
+mapiranjeRPDO.numberOfMappedObjects;
+mapiranjeRPDO.mappedObject1;
+mapiranjeRPDO.mappedObject2;
+mapiranjeRPDO.mappedObject3;
+mapiranjeRPDO.mappedObject4;
+mapiranjeRPDO.mappedObject5;
+mapiranjeRPDO.mappedObject6;
+mapiranjeRPDO.mappedObject7;
+mapiranjeRPDO.mappedObject8;
 
-}
+komunikacioniTPDO.maxSubIndex=6;
+komunikacioniTPDO.COB_IDUsedByTPDO;
+komunikacioniTPDO.transmissionType;
+komunikacioniTPDO.inhibitTime;
+komunikacioniTPDO.compatibilityEntry; //ne koristi se pise na gitu
+komunikacioniTPDO.eventTimer;
+komunikacioniTPDO.SYNCStartValue;
+
+mapiranjeTPDO.numberOfMappedObjects;
+mapiranjeTPDO.mappedObject1;
+mapiranjeTPDO.mappedObject2;
+mapiranjeTPDO.mappedObject3;
+mapiranjeTPDO.mappedObject4;
+mapiranjeTPDO.mappedObject5;
+mapiranjeTPDO.mappedObject6;
+mapiranjeTPDO.mappedObject7;
+mapiranjeTPDO.mappedObject8;
+}.
 
 
 /******************************************************************************/
