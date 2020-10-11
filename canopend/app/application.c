@@ -42,8 +42,8 @@ komunikacioniRPDO.COB_IDUsedByRPDO=0x200;
 komunikacioniRPDO.transmissionType=255;
 
 mapiranjeRPDO.numberOfMappedObjects=2;
-mapiranjeRPDO.mappedObject1=0x61000108;
-mapiranjeRPDO.mappedObject2=0x62000108;
+mapiranjeRPDO.mappedObject1=0x62000108;
+mapiranjeRPDO.mappedObject2=0x62000208;
 mapiranjeRPDO.mappedObject3=0x00000000;
 mapiranjeRPDO.mappedObject4=0x00000000;
 mapiranjeRPDO.mappedObject5=0x00000000;
@@ -60,8 +60,8 @@ komunikacioniTPDO.eventTimer=0;
 komunikacioniTPDO.SYNCStartValue=0;
 
 mapiranjeTPDO.numberOfMappedObjects=2;
-mapiranjeTPDO.mappedObject1=0x61000108;
-mapiranjeTPDO.mappedObject2=0x61000208;
+mapiranjeTPDO.mappedObject1=0x60000108;
+mapiranjeTPDO.mappedObject2=0x60000208;
 mapiranjeTPDO.mappedObject3=0x00000000;
 mapiranjeTPDO.mappedObject4=0x00000000;
 mapiranjeTPDO.mappedObject5=0x00000000;
@@ -72,6 +72,11 @@ mapiranjeTPDO.mappedObject8=0x00000000;
 
 /******************************************************************************/
 void app_communicationReset(void){
+
+CO_RPDO_init(objekatRPDO,objekatRPDO.em,objekatRPDO.SDO,objekatRPDO.SYNC,objekatRPDO.operatingState,objekatRPDO.nodeId,objekatRPDO.defaultCOB_ID,objekatRPDO.restrictionFlags,objekatRPDO.RPDOCommPar,objekatRPDO.RPDOMapPar,0x1400,0x6200,objekatRPDO.CANdevRx,objekatRPDO.CANdevRxIdx);
+
+CO_TPDO_init(objekatTPDO,objekatTPDO.em,objekatTPDO.SDO,objekatTPDO.SYNC,objekatTPDO.operatingState,objekatTPDO.nodeId,objekatTPDO.defaultCOB_ID,objekatTPDO.restrictionFlags,objekatTPDO.RPDOCommPar,objekatTPDO.RPDOMapPar,0x1800,0x6000,objekatTPDO.CANdevRx,objekatTPDO.CANdevRxIdx);
+
 
 }
 
