@@ -27,13 +27,17 @@
 #include "CANopen.h"
 
 
-/******************************************************************************/
-void app_programStart(void){
+CO_RPDO_t *objekatRPDO;
 CO_RPDOCommPar_t komunikacioniRPDO;
 CO_RPDOMapPar_t mapiranjeRPDO;
 
+CO_TPDO_t *objekatTPDO;
 CO_TPDOCommPar_t komunikacioniTPDO;
 CO_TPDOMapPar_t mapiranjeTPDO;
+
+
+/******************************************************************************/
+void app_programStart(void){
 
 komunikacioniRPDO.maxSubIndex=2;
 komunikacioniRPDO.COB_IDUsedByRPDO=0x200;
@@ -70,8 +74,6 @@ mapiranjeTPDO.mappedObject8=0x00000000;
 
 /******************************************************************************/
 void app_communicationReset(void){
-CO_RPDO_t *objekatRPDO;
-CO_TPDO_t *objekatTPDO;
 
 CO_RPDO_init(objekatRPDO,objekatRPDO->em,objekatRPDO->SDO,objekatRPDO->SYNC,objekatRPDO->operatingState,objekatRPDO->nodeId,objekatRPDO->defaultCOB_ID,objekatRPDO->restrictionFlags,objekatRPDO->RPDOCommPar,objekatRPDO->RPDOMapPar,0x1400,0x6200,objekatRPDO->CANdevRx,objekatRPDO->CANdevRxIdx);
 
