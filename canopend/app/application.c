@@ -89,11 +89,11 @@ void app_programEnd(void){
 
 /******************************************************************************/
 void app_programAsync(uint16_t timer1msDiff){
-CO_TPDO_process(objekatTPDO,TRUE,1000);
+CO_TPDO_process(objekatTPDO,true,1000);
 }
 
 
 /******************************************************************************/
 void app_program1ms(void){
-CO_RPDO_process(objekatRPDO,TRUE);
+CO_RPDO_process(objekatRPDO,true);
 }
